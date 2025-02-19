@@ -48,8 +48,8 @@ const logout = () => {
 
                             <!-- Navigation Links -->
                             <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
-                                <NavLink :href="route('dashboard')" :active="route().current('dashboard')">
-                                    Dashboard
+                                <NavLink :href="route('dashboard')" :active="route().current('dashboard')" class="no-underline">
+                                    Carnet Pet
                                 </NavLink>
                             </div>
                         </div>

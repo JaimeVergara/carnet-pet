@@ -12,7 +12,7 @@
             <div class="col-6">
                 <ul class="nav nav-tabs justify-content-center">
                     <li class="nav-item">
-                        <a type="button" :class="isInicioActive ?  'nav-link active texto-negro' : 'nav-link texto-negro'" v-on:click.prevent="press_inicio()">Inicio</a>
+                        <a type="button" :class="isInicioActive ? 'nav-link active texto-negro' : 'nav-link texto-negro'" v-on:click.prevent="press_inicio()">Inicio</a>
                     </li>
                     <li class="nav-item">
                         <a type="button" class="nav-link texto-negro" v-on:click.prevent="press_blog()">Blog</a>
@@ -74,9 +74,7 @@ import { Head } from '@inertiajs/vue3';
 export default {
     data: function() {
         return {
-            hash_inicio: 0,
             isInicioActive: true,
-            hash_blog: 0,
             show_ingreso: false,
             show_blog: false,
             show_about: false

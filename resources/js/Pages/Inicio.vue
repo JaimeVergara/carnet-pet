@@ -43,7 +43,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 export default {
     data: function() {
         return {
-            mostrar_inicio: false
+          
         }
     },
     
